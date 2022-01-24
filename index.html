@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font style link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Dancing+Script&family=EB+Garamond:ital@1&family=Luxurious+Roman&family=Merriweather:ital,wght@1,300&family=Moon+Dance&family=Open+Sans:ital,wght@1,300;1,600&family=Patrick+Hand&family=Poppins:ital,wght@1,500&family=Roboto&family=Satisfy&family=Signika:wght@300&family=The+Nautigal:wght@700&family=Ubuntu:ital,wght@0,300;1,400&display=swap"
+        rel="stylesheet">
     <title>Assignment</title>
     <!-- font icon link  -->
     <script src="https://kit.fontawesome.com/de8c66a76b.js" crossorigin="anonymous"></script>
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -101,7 +108,6 @@
     </header>
     <!-- end header  -->
     <main>
-
         <article>
             <div aria-live="polite" aria-atomic="true" class="position-relative ">
                 <!-- Position it: -->
@@ -121,10 +127,9 @@
                                 aria-label="Close"></button>
                         </div>
                     </div>
-
                 </div>
             </div>
-            <div class="container mt-5 mb-5">
+            <div class="container mt-5 mb-5 ">
                 <div class="row align-items-center ">
                     <div class="col-6">
                         <img src="images/wedding.png" alt="">
@@ -135,15 +140,102 @@
                             Our goal is for you to enjoy your special day and not be worried or overwhelmed arranging
                             all the details for your event.</p>
                         <button class="btn btn-dark">Explore Our Album <i class="fas fa-arrow-right ps-4"></i></button>
-
                     </div>
-
                 </div>
-
             </div>
         </article>
+        <!-- package section  -->
+        <section class="container m-5  ">
+            <h2 class=" d-flex justify-content-center mb-5 mt-2">Our Package</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col ">
+                    <div class="card border-0 pt-5">
+                        <div class="card-body">
+                            <h2 class="card-title">$300</h2>
+                            <h4>Business Fair</h4>
+                            <p>For most businesses event like book fair, craft fair. </p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle"></i>limited space access</li>
+                                <li><i class="fas fa-check-circle"></i>Sequrity facility</li>
+                                <li><i class="fas fa-check-circle"></i>Event support</li>
+                                <li><i class="fas fa-check-circle"></i>Decoration design</li>
+                                <li><i class="fas fa-check-circle"></i>Per day bill</li>
+                            </ul>
+                            <button class="btn btn-dark ps-5 pe-5   rounded-pill">
+                                choose plan
+                            </button>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 pt-5">
+                        <div class="card-body">
+                            <h2 class="card-title">$500</h2>
+                            <h4>wedding basic</h4>
+                            <p>For weddings with basic plan and limited item. </p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle"></i>Full space access</li>
+                                <li><i class="fas fa-check-circle"></i>Food arrangement</li>
+                                <li><i class="fas fa-check-circle"></i>mangement support</li>
+                                <li><i class="fas fa-check-circle"></i>Decoration design</li>
+                                <li><i class="fas fa-check-circle"></i>Billed as shift</li>
+                            </ul>
+                            <button class="btn btn-dark ps-5 pe-5  rounded-pill">
+                                choose plan
+                            </button>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div style="height: 400px; " class="card border-0 text-white  bg-primary rounded-3">
+                        <div class="card-body   ">
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                Hot
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                            <h2 class="card-title">$800</h2>
+                            <h4>Wedding plus</h4>
+                            <p>For most weddings with premium plans.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle"></i>limited space access</li>
+                                <li><i class="fas fa-check-circle"></i>Dedicated team</li>
+                                <li><i class="fas fa-check-circle"></i>Buffet food</li>
+                                <li><i class="fas fa-check-circle"></i>premium Decoration</li>
+                                <li><i class="fas fa-check-circle"></i>pay as plan</li>
+                            </ul>
+                            <br>
+                            <button class="btn btn-light w-100 rounded-pill text-dark">
+                                choose plan
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 pt-5">
+                        <div class="card-body">
+                            <h2 class="card-title">$1200</h2>
+                            <h4>Corporate event</h4>
+                            <p>For most corporate business events. </p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle"></i>limited space access</li>
+                                <li><i class="fas fa-check-circle"></i>Dedicated team</li>
+                                <li><i class="fas fa-check-circle"></i>Buffet food</li>
+                                <li><i class="fas fa-check-circle"></i>premium Decoration</li>
+                                <li><i class="fas fa-check-circle"></i>pay as plan</li>
+                            </ul>
+                            <button class="btn btn-dark ps-5 pe-5 rounded-pill">
+                                choose plan
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- bootstrap js link  -->
